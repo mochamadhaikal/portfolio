@@ -386,7 +386,7 @@ img {
 /* ===== MEDIA QUERIES =====*/
 /* For small devices */
 @media screen and (max-width: 320px) {
-  .skills__img {
+  .skills__img img {
     display: none;
   }
 }
