@@ -238,6 +238,10 @@ img {
 .about__social-icon:hover {
   color: var(--first-color);
 }
+.about__buttons {
+  justify-content: initial;
+  margin-bottom: 10px;
+}
 
 /* ===== SKILLS =====*/
 .skills__container {
@@ -363,6 +367,20 @@ img {
 }
 .footer__social:hover {
   color: var(--first-color);
+}
+
+/* BUTTON */
+.button {
+  display: inline-block;
+  background-color: var(--first-color);
+  color: #FFF;
+  padding: 0.5rem;
+  border-radius: .5rem;
+  font-weight: var(--font-medium);
+}
+.button--flex {
+  display: inline-flex;
+  align-items: center;
 }
 
 /* ===== MEDIA QUERIES =====*/
