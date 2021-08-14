@@ -386,8 +386,8 @@ img {
 /* ===== MEDIA QUERIES =====*/
 /* For small devices */
 @media screen and (max-width: 320px) {
-  .home__img {
-    width: 230px;
+  .skills__img {
+    display: none;
   }
 }
 
